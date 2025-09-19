@@ -9,7 +9,7 @@ const CellComponent: FC<CellProps>  = ({cell: cell}) => {
     return (
         <div
         className={['cell', cell.color].join(' ')}>
-
+            {cell.figure}
         </div>
     );
 };
