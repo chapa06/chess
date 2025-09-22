@@ -1,6 +1,6 @@
 import { Cell } from "../Cell";
 import { Colors } from "../colors";
-import Logo from '../../public/assets/KingBlack.png';
+import Logo from '../../assets/KingBlack.png';
 
 export enum FigureNames{
     FIGURE = "Фигура",
